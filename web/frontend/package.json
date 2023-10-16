@@ -1,0 +1,17 @@
+{
+  "name": "shopify-frontend-template-react",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "coverage": "vitest run --coverage"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">= 12.16"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
