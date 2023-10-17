@@ -10,10 +10,6 @@ const DB_URL = process.env.DB_URL;
 const DB_NAME = process.env.DB_NAME;
 const DEV = process.env.NODE_ENV === "development";
 
-console.log("DB_URL: ",DB_URL);
-console.log("DB_NAME: ",DB_NAME);
-console.log("DEV: ",DEV);
-
 // The transactions with Shopify will always be marked as test transactions, unless NODE_ENV is production.
 // See the ensureBilling helper to learn more about billing in this template.
 const billingConfig = {

@@ -4,6 +4,9 @@
 # Dependency directory
 node_modules
 
+# Package-lock.json
+package-lock.json
+
 # Test coverage directory
 coverage
 
